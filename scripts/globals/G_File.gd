@@ -71,7 +71,7 @@ func SAVE_Json(data: Dictionary, file_path: String):
 # ==============================================================================
 func PathCorrect(path: String):
 	var st: String=path
-	st=st.replace("{project}",G_Project.PATH_GetRoot())
+	#st=st.replace("{project}",G_Project.PATH_GetRoot())
 	return st
 
 func LOAD_String(_file_path: String) -> String:
